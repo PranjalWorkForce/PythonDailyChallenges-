@@ -13,3 +13,62 @@ Each challenge includes:
 Problem statement
 Solution code
 Explanation (when needed)
+
+
+🚀 Challenge Levels
+🟢 Beginner — Basics, loops, conditions
+🟡 Intermediate — Functions, strings, lists, dictionaries
+🔴 Advanced — Algorithms, recursion, optimization
+
+
+🛠️ Technologies Used
+Python 3.x
+VS Code / Any Python IDE
+
+
+▶️ How to Run
+Clone the repository:
+Bash
+git clone https://github.com/your-username/python-daily-challenges.git
+
+Navigate to folder:
+Bash
+cd python-daily-challenges
+
+Run any challenge:
+Bash
+python solution.py
+
+
+🎯 Goals
+Solve 365 Python challenges
+Improve coding speed
+Master Python fundamentals
+Build a strong GitHub portfolio
+
+
+🤝 Contributions
+Contributions are welcome!
+
+If you want to add challenges:
+Fork the repo
+Create a new branch
+Add your challenge
+Submit a Pull Request
+
+
+⭐ Support
+If you find this repository helpful:
+⭐ Star the repo
+🍴 Fork it
+📢 Share with others
+
+📅 Progress Tracker
+Day.     Challenge.         Status
+01.    Example Problem.   ✅ Completed
+02.    Example Problem.   ✅ Completed
+03.    Example Problem.   🔄 Ongoing
+
+👨‍💻 Auther
+Pranjal Puskar Bhattarai 
+Python Learner | Cybersecurity Enthusiast | Developer
