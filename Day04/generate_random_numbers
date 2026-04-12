@@ -1,0 +1,7 @@
+import random // to get random stuffs
+
+
+n = random.randint(1,100) 
+// get random numbers between 1 and 100
+
+print(n)
