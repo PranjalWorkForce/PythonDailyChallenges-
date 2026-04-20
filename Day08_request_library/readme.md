@@ -1,7 +1,4 @@
-Here’s a clean, structured set of GitHub-ready notes based on everything we discussed 👇
-
-
----
+Small Intro about what the requests is really about and how it can be very serious concern if the security is not provided to web applications. 
 
 🌐 HTTP Requests & Cybersecurity Basics (Notes)
 
@@ -261,10 +258,3 @@ Always think like an attacker:
 
 
 
----
-
-If you want, I can next:
-
-Convert this into a **README.md with styling (badges, code blocks, formatting)**
-
-Or add **real lab examples + screenshots style notes** to make your GitHub stand out 🔥
