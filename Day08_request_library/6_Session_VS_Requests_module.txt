@@ -1,0 +1,63 @@
+Understanding is clear but using AI to make notes in my order for future revise. 
+
+🔹 1. What is “requests” (normal usage)?
+This is the basic way to send HTTP requests.
+Python
+import requests
+
+requests.get("https://example.com")
+✔️ Features
+simple
+one-time request
+no memory
+no shared cookies
+👉 Every call is independent
+🔹 2. What is Session()?
+Python
+import requests
+
+s = requests.Session()
+This creates a session object.
+✔️ Features
+remembers cookies 🍪
+keeps authentication 🔐
+reuses connection ⚡
+shares headers
+👉 Multiple requests behave like same user
+
+⚖️ 3. Key Difference
+Feature.     requests.get() / post()         Session() 
+Type.            Function call.              Object (class instance)
+Memory.             ❌ No.                       ✅ Yes
+Cookies.            ❌ Not stored.               ✅ Stored
+Login persistence.  ❌ No.                       ✅ Yes. 
+Speed.               Slower (new connection)   Faster (reused)
+Use case.            Single request.           Multiple related requests
+
+🔥 4. Side-by-side example
+
+❌ Without Session
+Python
+import requests
+requests.post("https://site.com/login")
+requests.get("https://site.com/profile")  
+# ❌ not logged in
+
+
+✅ With Session
+Python
+import requests
+s = requests.Session()
+s.post("https://site.com/login")
+s.get("https://site.com/profile")  
+# ✅ logged in
+
+🧠 Simple analogy
+requests (normal):
+     You ask something and leave every time
+Session:
+     You stay logged in and continue asking
+
+💡 Final understanding
+  requests.get() = single, stateless request
+  requests.Session() = multiple requests with memory (same identity)
