@@ -2,7 +2,7 @@ Small Intro about what the requests is really about and how it can be very serio
 
 🌐 HTTP Requests & Cybersecurity Basics (Notes)
 
-🔹 1. What is an HTTP Request?
+🔹 1. What is a HTTP Request?
 
 An HTTP request is a structured message sent from a client (browser/script) to a server to request or send data.
 
