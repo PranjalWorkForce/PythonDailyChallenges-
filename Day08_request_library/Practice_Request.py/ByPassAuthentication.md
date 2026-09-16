@@ -1,3 +1,6 @@
+# Full Proper Overall Explaination How this Work.
+
+
 Good—that’s the right mindset. Learning how authentication can fail (in a lab) is exactly how you become good at securing systems.
 
 Let’s do this properly for your Day 3 – Requests + Auth Testing (Safe Practice) 👇
